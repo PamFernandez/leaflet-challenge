@@ -8,7 +8,7 @@
 ## Web application is deployed at: 
 
 ## The screen shot of my final map:
-![PamsMapScreenShot] (https://github.com/PamFernandez/leaflet-challenge/blob/main/Instructions/Images/PamsMapScreenShot.pdf)
+![PamsMapScreenShot] (Instructions/Images/PamsMapScreenShot.pdf)
 
 
 
