@@ -1,14 +1,13 @@
-### leaflet-challenge
+### leaflet-challenge - checking the status!
 # Leaflet Homework: Visualizing Data with Leaflet
-
 ### This assignment was to use Leaflet.js to visualize a geoJSON dataset from the USGS website.
 
 ----------------------------
 ----------------------------
-## Web application is deployed at: 
+### Web application is deployed at: https://pamfernandez.github.io/leaflet-challenge/
 
 ## The screen shot of my final map:
-![PamsMapScreenShot] (Instructions/Images/PamsMapScreenShot.pdf)
+![PamsMapScreenShot](Images/PamsMapScreenShot.png)
 
 
 
@@ -30,14 +29,14 @@ I also created a pop-up for each marker that contains:
 * the magnitude,
 * the depth,
 * the significance rating, and
-* the number of reports submitted to the DYFI? system. (Did You Feel It? (DYFI) collects information from people who felt an earthquake and creates maps that show what people experienced and the extent of damage.)
+* the number of reports submitted to the DYFI? system. (Did You Feel It? (DYFI?) collects information from people who felt an earthquake and creates maps that show what people experienced and the extent of damage.)
 
 There is a control box in the upper right hand corner that contains the basemaps and the overlay maps and allows each layer to be turned on or off. And there is a legend in the bottom right hand corner that shows what the color of the markers mean - that is the depth of each earthquake.
 
-For a bonus I added an additional overlay to my map to show the borders of the tectonic plates - illustrating the relationship between tecctonic plates and seismic activity. I also added this layer to the control box so the tectonic plate borders layer can be turned on and off.
+For the bonus I added an additional overlay to my map to show the borders of the tectonic plates - illustrating the relationship between tecctonic plates and seismic activity. I also added this layer to the control box so the tectonic plate borders layer can be turned on and off.
 
 ## Summary
-The final product was a web application created with Leaflet.js that included two base layers and two overlayers that could be chosen and turned off and on. 
+The final product was a web application created with Leaflet.js that includes two base layers and two overlays that can be chosen and turned off and on. The map showed the location of every earthquake for the last seven days with a marker indicating both the magnitude and depth of each earthquake.
 
 Each time the application is refreshed it is updated with the current information contained in the geoJSON file hosted on the USGS website.
 
@@ -47,9 +46,9 @@ Each time the application is refreshed it is updated with the current informatio
 * CSS code: style.css
 
 ## Data Sources Used
-*USGS GeoJSON Summary Format webpage: https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php
+* USGS GeoJSON Summary Format webpage: https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php
 
-*The earthquake GeoJSON dataset I used in my web application - All Earthquakes From The Past 7 Days: https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geojson
+* The earthquake GeoJSON dataset I used in my web application - All Earthquakes From The Past 7 Days: https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geojson
 
-*The tectonic plate boundaries JSON: https://github.com/fraxen/tectonicplates/blob/master/GeoJSON/PB2002_boundaries.json
+* The tectonic plate boundaries JSON: https://github.com/fraxen/tectonicplates/blob/master/GeoJSON/PB2002_boundaries.json
 
