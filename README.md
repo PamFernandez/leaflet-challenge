@@ -1,4 +1,4 @@
-### leaflet-challenge - checking the status!
+### leaflet-challenge
 # Leaflet Homework: Visualizing Data with Leaflet
 ### This assignment was to use Leaflet.js to visualize a geoJSON dataset from the USGS website.
 
