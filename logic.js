@@ -4,7 +4,6 @@ let queryUrl = 'https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_we
 // Adding "Level 2: More Data" - the tectonic plates data from GitHub
 let platesURL = 'https://raw.githubusercontent.com/fraxen/tectonicplates/master/GeoJSON/PB2002_boundaries.json'
 
-
 // Perform a GET request to the query URL
 d3.json(queryUrl).then(function (data) {
     console.log(data.features);
@@ -35,6 +34,7 @@ d3.json(queryUrl).then(function (data) {
         <p>number of felt reports submitted to DYFI?: ${earthquakes[i].properties.felt}</p>`)    
         );
     }
+
     console.log(quakeMarkers);  // can verify that it's the same number as are in the data 
   
     let quakeLayer = new L.layerGroup(quakeMarkers);
@@ -71,7 +71,6 @@ d3.json(queryUrl).then(function (data) {
   
     // Create a layer control that contains our baseMaps and add an overlay Layer that contains the earthquake GeoJSON
     L.control.layers(baseMaps, overlayMaps, {collapsed: false}).addTo(myMap);
-     
 
     // function needed to grab the color related to the depth of the earthquake
     function getColor() {
