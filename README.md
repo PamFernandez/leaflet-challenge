@@ -36,7 +36,7 @@ There is a control box in the upper right hand corner that contains the basemaps
 For the bonus I added an additional overlay to my map to show the borders of the tectonic plates - illustrating the relationship between tecctonic plates and seismic activity. I also added this layer to the control box so the tectonic plate borders layer can be turned on and off.
 
 ## Summary
-The final product was a web application created with Leaflet.js that includes two base layers and two overlays that can be chosen and turned off and on. The map showed the location of every earthquake for the last seven days with a marker indicating both the magnitude and depth of each earthquake.
+The final product was a web application created with Leaflet.js that includes two base layers and two overlays that can be chosen and turned off and on. The map shows the location of every earthquake for the last seven days with a marker indicating both the magnitude and depth of each earthquake.
 
 Each time the application is refreshed it is updated with the current information contained in the geoJSON file hosted on the USGS website.
 
